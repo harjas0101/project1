@@ -1,0 +1,81 @@
+body{
+    background-image: url(https://images.pexels.com/photos/3354648/pexels-photo-3354648.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: 100vw 100vh;
+    background-attachment: fixed; 
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    justify-content: space-between;
+}
+.c1logo{
+    height: 100%;
+    width: 5vw;
+}
+.c1logo img{
+    height: 100%;
+    width: 5vw;
+} 
+.c1title{
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 100%;
+}
+.c1socialmedia{
+    width: 10vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.c1socialmedia img{
+    height: 70%;
+    width: 3vw;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 5vh;
+}
+.container2 h1:hover{
+    color: red;
+}
+.container3{
+    font-weight: bolder;
+    font-size:xx-large;
+    color:blue;
+    background-color: black;
+    margin-top: 5vh;
+}
+.container3 marquee:hover{
+    font-weight: bolder;
+    font-size:xx-large;
+    color:red;
+    background-color: black;
+}
+.container4{
+    font-size: x-large;
+    background-color: rgba(252, 247, 247, 0.451);
+    color: black;
+    margin-top: 10vh;
+}
+.container5{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 50vh;
+    margin-top: 10vh;
+}
+.container5 img{
+    height: 50vh;
+    width: 31vw;
+    border: 2px solid black;
+}
+.container6{
+    background-color: aqua;
+    color: black;
+    font-weight: bolder;
+    font-size: xx-large;
+}
